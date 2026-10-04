@@ -1,0 +1,7 @@
+dataset,variable,source,url,resolution,year,notes
+sandwip_load_profile_2025,Load demand [kW],PGCB Hourly Generation Dataset,Scaled from national MW to Sandwip 61 kW peak,Hourly,2025,Scale=61kW/15000MW; peak ref: Mahmud (2011)
+sandwip_solar_temperature_tmy,GHI [kW/m2],NASA POWER SARAH-3,https://power.larc.nasa.gov,Monthly->Hourly (Liu-Jordan),TMY,Lat=22.533N Lon=91.450E; monthly targets verified vs SREDA (2019)
+sandwip_solar_temperature_tmy,T_amb [degC],Bangladesh Meteorological Department (BMD),https://www.bmd.gov.bd,Monthly mean+amplitude,2024,Sandwip Island station; diurnal sinusoidal model
+extreme_weather_scenarios,Cyclone parameters,Bangladesh Meteorological Department (BMD) 2024,https://www.bmd.gov.bd,Event,2024,Cyclone Remal 26-27 May 2024; peak wind 111 km/h; surge 5-8 ft
+economic_parameters,Component costs,Bangladesh market survey 2024 + IDCOL reports,https://www.idcol.org,Annual,2024,PV=$800/kW BAT=$350/kWh DG=$250/kW; fuel=$0.85/L island premium
+economic_parameters,Interest/inflation,Bangladesh Bank + BBS,https://www.bb.org.bd,Annual,2024,Loan rate=9% Inflation=6% Real rate=2.83%
